@@ -16,10 +16,10 @@ body{
 }
 .bubbles{
   position: absolute;
-  bottom: -120px;
+  bottom: -110px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70px;
+  margin-top: 120px;
   width: 100%;
   justify-content: space-around;
 }
@@ -27,7 +27,7 @@ body{
   height: 60px;
   width: 60px;
   background: rgba(255, 255, 255, 0.1);
-  animation: move 10s linear infinite;
+  animation: move 5s linear infinite;
   position: relative;
   overflow: hidden;
 }
@@ -63,6 +63,18 @@ body{
 .bubbles span.seven{
   animation-delay: 3;
   transform: scale(1.5)
+}
+.bubbles span.eight{
+  animation-delay: 4;
+  transform: scale(1.75)
+}
+.bubbles span.nine{
+  animation-delay: 8;
+  transform: scale(0.5)
+}
+.bubbles span.ten{
+  animation-delay: 5.5;
+  transform: scale(0.4)
 }
 .bubbles span:before{
   content: '';

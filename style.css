@@ -30,6 +30,7 @@ body{
   animation: move 10s linear infinite;
   position: relative;
   overflow: hidden;
+  border-radius: 50%;
 }
 @keyframes move {
   100%{

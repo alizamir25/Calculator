@@ -19,7 +19,7 @@ body{
   bottom: -110px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 100%;
   justify-content: space-around;
 }
@@ -113,6 +113,15 @@ body{
 }
 .bubbles span.seven:before{
   animation-delay: 6s;
+}
+.bubbles span.eight:before{
+  animation-delay: 9s;
+}
+.bubbles span.nine:before{
+  animation-delay: 2s;
+}
+.bubbles span.ten:before{
+  animation-delay: 8s;
 }
 .container{
   z-index: 12;
